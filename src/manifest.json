@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Alt+G for AGM",
+    "description": "Prompts for an AGM defect ID and navigates to that defect's URL.",
+    "version": "0.1",
+
+    "background": {
+        "scripts": ["scripts.js"]
+    },
+
+    "commands": {
+        "alt-g": {
+            "suggested_key": {
+                "default": "Alt+G",
+                "mac": "Alt+G"
+            },
+            "description": "Prompts for an ID."
+        }
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
+}
