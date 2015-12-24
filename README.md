@@ -7,7 +7,7 @@ Disclaimer: I made this for my personal use. If it doesn't work for you or causi
 ## Installation
 1. Navigate to chrome://extensions.
 2. Turn on Developer Mode (currently a checkbos at the top-right).
-3. Download the .zip file under dist/ ([here](dist/Alt-G-for-AGM.zip)).
+3. Download the .zip file under dist/ ([here](dist/Alt-G-for-AGM.zip?raw=true)).
 4. Drag the zip to the extensions page's landing zone.
 5. Approve dialogs if necessary and check that the new extension appears and is enabled.
 6. On future restarts of Chrome, it will suggest to disable developer extensions; choose "Cancel".
