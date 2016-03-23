@@ -19,5 +19,4 @@ Disclaimer: I made this for my personal use. If it doesn't work for you or causi
 3. If you're in any other screen, defects management or other, type an ID of a defect and confirm.
 
 ## Clip from The Matrix
-Totally unrelated, I just like it.
-<iframe width="853" height="480" src="https://www.youtube.com/embed/iuslUzbJEaw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Totally unrelated, it's just a cool [clip](https://www.youtube.com/watch?v=iuslUzbJEaw).
