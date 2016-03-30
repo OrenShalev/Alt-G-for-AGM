@@ -21,7 +21,8 @@ function analyzeUrl(url) {
 }
 
 function handler(currentTabUrl) {
-    var onAgm = currentTabUrl.startsWith('https://agilemanager-lon.saas.hp.com/');
+    //var onAgm = currentTabUrl.startsWith('https://agilemanager-lon.saas.hp.com/');
+    var onAgm = currentTabUrl.includes('agm/webui/alm');    
     if (!onAgm) return; // Not on AGM, ignore.
 
     var obj = analyzeUrl(currentTabUrl); // Figure out what type of entity we want and what is the appropriate URL.
