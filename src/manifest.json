@@ -8,6 +8,11 @@
     "background": {
         "scripts": ["scripts.js"]
     },
+	
+	"icons": { 	
+		"48": "alt-q-48.png",
+		"128": "alt-q-128.png"
+	},
 
     "commands": {
         "alt-g": {
