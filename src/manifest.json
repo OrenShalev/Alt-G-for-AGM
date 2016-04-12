@@ -3,7 +3,7 @@
 
     "name": "Alt+G for AGM",
     "description": "Prompts for an AGM defect ID and navigates to that defect's URL.",
-    "version": "0.1",
+    "version": "0.2",
 
     "background": {
         "scripts": ["scripts.js"]
