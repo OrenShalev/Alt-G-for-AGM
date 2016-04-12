@@ -14,14 +14,19 @@ function analyzeUrl(url) {
         key = hashParts[0] + '/' + hashParts[1],
         value = typesMap[key] || typesMap['defects/default']; // Default to defect.
 
+        //Use the original productGroupId instead of the 1000 in the templates.
+        var productIDRegex = /(productGroupId=)([0-9])+/;
+        var productID = hash.match(productIDRegex)[0].split('=')[1];
+        var newURL = value.url.replace(productIDRegex, '$1'+productID); 
+
     return {
         name: value.name,
-        url: base + '#' + value.url
+        url: base + '#' + newURL
     };
 }
 
 function handler(currentTabUrl) {
-    var onAgm = currentTabUrl.includes('agm/webui/alm');    
+    var onAgm = currentTabUrl.includes('agm/webui/alm');
     if (!onAgm) return; // Not on AGM, ignore.
 
     var obj = analyzeUrl(currentTabUrl); // Figure out what type of entity we want and what is the appropriate URL.
