@@ -3,15 +3,15 @@
 
     "name": "Alt+G for AGM",
     "description": "Prompts for an AGM defect ID and navigates to that defect's URL.",
-    "version": "0.1",
+    "version": "0.2",
 
     "background": {
         "scripts": ["scripts.js"]
     },
 	
 	"icons": { 	
-		"48": "alt-q-48.png",
-		"128": "alt-q-128.png"
+		"48": "alt-g-48.png",
+		"128": "alt-g-128.png"
 	},
 
     "commands": {
